@@ -1,0 +1,52 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer_textoinformativo h1 b {
+    color: hsl(277, 64%, 61%) ;
+}
+.mainContainer_textoinformativo p{
+   color: hsla(0, 0%, 100%, 0.6);
+}
+.mainContainer_textoinformativo--info p {
+    color: hsla(0, 0%, 100%, 0.75);
+   
+}
+@media (max-width: 600px) {
+    .mainContainer{
+        display: flex;
+        height: auto ;
+        min-width: 300px;
+        max-width: 400px;
+        margin: 80px 20px;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        text-align: center;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        
+    }
+    .mainContainer_imagenPrincipal img{
+        height: 100%;
+        width: 100%;
+        object-fit:contain;
+        filter: sepia(100%);
+       
+       
+       
+    }
+.mainContainer_textoinformativo{
+    background-color:  hsl(244, 38%, 16%)   ;
+    padding: 40px;
+    margin-top: -5px;
+}
+ 
+}
